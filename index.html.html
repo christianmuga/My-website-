@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Mugabo - Electrician</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            color: #ffffff;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .photo {
+            text-align: center;
+        }
+        .photo img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .comments {
+            margin-top: 20px;
+        }
+        .comments textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .comments button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #35424a;
+            color: #fff;
+            cursor: pointer;
+        }
+        .comments button:hover {
+            background-color: #575757;
+        }
+    </style>
+    <script>
+        function checkPassword() {
+            var password = prompt("Please enter the password:");
+            if (password !== "improve_your_knowledge") {
+                alert("Incorrect password!");
+                window.location = "about:blank";
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <header>
+        <h1>Christian Mugabo - Electrician</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="content">
+            <h2>About Me</h2>
+            <div class="photo">
+                <img src="file:///mnt/data/file-Hc9mdQdIyjaTkjYWTCDcftj4" alt="Christian Mugabo">
+            </div>
+            <p>Hello! I'm Christian Mugabo, an experienced electrician based in Kigali, Rwanda. I am passionate about providing safe and efficient electrical services to my community. In my free time, I enjoy reading books and listening to music.</p>
+        </section>
+        <section id="services" class="content">
+            <h2>Services</h2>
+            <ul>
+                <li>Residential Electrical Installations</li>
+                <li>Commercial Electrical Services</li>
+                <li>Electrical Repairs and Maintenance</li>
+                <li>Energy-efficient Lighting Solutions</li>
+            </ul>
+        </section>
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <p>I have worked for 2 years at Sezam Cube Computer and am now working at Yaniss Solution Ltd.</p>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contact</h2>
+            <p>If you need reliable electrical services, feel free to reach out to me:</p>
+            <p>Email: <a href="mailto:mugabochristian92@gmail.com">mugabochristian92@gmail.com</a></p>
+            <p>Phone: 0794233059</p>
+            <p>Location: Kigali, Rwanda</p>
+        </section>
+        <section id="comments" class="content comments">
+            <h2>Comments</h2>
+            <textarea placeholder="Leave a comment..."></textarea>
+            <button type="button">Submit</button>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Christian Mugabo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
